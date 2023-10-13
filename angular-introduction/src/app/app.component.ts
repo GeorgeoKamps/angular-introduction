@@ -17,10 +17,18 @@ export class AppComponent {
     person: Person ={
      givenName: "Georgeo",
      surName: "Kampouris",
-    age: 25,
+     age: 25,
      email: "georgeokamps@gmail.com",
     address: "skg"
     };
+
+    person2: Person ={
+      givenName: "akis",
+      surName: "stapasidis",
+      age: 25,
+      email: "stapas@gmail.com",
+     address: "skg"
+     };
 
 };
 
