@@ -5,7 +5,9 @@
 - Δημιουργια νεου component
 -
 
-##6.
+## ##7. Template driven forms
+
+##6. component output
 
 ## 5. Event binding (template -> controller)
 
