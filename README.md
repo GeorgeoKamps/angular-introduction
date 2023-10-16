@@ -3,6 +3,11 @@
 Εισαγωγή στο Angular Framework
 
 - Δημιουργια νεου component
+
+-
+
+## 8. Reactive Forms
+
 -
 
 ## ##7. Template driven forms
