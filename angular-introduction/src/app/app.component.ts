@@ -25,7 +25,7 @@ import { CrudDemoComponent } from './crude-demo/crud-demo/crud-demo.component';
     TemplateDrivenFormComponent,
     ReactiveFormComponent,
     CrudDemoComponent,
-    
+
 ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
