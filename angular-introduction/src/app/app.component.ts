@@ -10,18 +10,22 @@ import { PersonCardComponent } from './person-card/person-card.component';
 import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 import { AppService } from './app.service';
+import { CrudDemoComponent } from './crude-demo/crud-demo/crud-demo.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule,
+  imports: [
+    CommonModule,
     PersonComponent,
     PersonAltComponent,
     EventBindComponent,
     OutputDemoComponent,
     PersonCardComponent,
-  TemplateDrivenFormComponent,
-  ReactiveFormComponent
+    TemplateDrivenFormComponent,
+    ReactiveFormComponent,
+    CrudDemoComponent,
+    
 ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
