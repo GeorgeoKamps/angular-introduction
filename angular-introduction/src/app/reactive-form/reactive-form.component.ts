@@ -23,10 +23,11 @@ export class ReactiveFormComponent {
      ]),
      email : new FormControl('', [Validators.required, Validators.email]),
      address: new FormControl('', Validators.required),
-     photoURL: new FormControl()
+     photoURL: new FormControl('')
   });
 
   onSubmit(){
     this.person.emit(this.form.value as Person);
+    this.form.reset();
   }
 }
